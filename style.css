@@ -1,0 +1,127 @@
+.container{
+    
+    margin-top: 70px;
+    width: 700px;
+    margin-bottom: 100px;
+  
+}
+.header{
+    background-color: #5CCDE5;
+    padding: 30px 30px 50px;
+    
+}
+.header-ele{
+    margin: auto;
+    text-align: center;
+    
+}
+.card{
+    background-color: white;
+    margin: 0 40px;
+    padding: 10px;
+    border: none;
+    position: absolute;
+    top: 150px;
+    width: 600px;
+}
+.fas,.correct,.wrong,.far{
+font-size: 20px;
+font-weight: bold;
+}
+.card-title{
+    color: #6A6E6F;
+}
+.card-subtitle{
+    color: #B2C4CA;
+}
+.left{
+    color: white;
+    padding: 0;
+    padding-left: 20px;
+}
+.right{
+    color: white;
+    padding-left: 280px;
+}
+.btn{
+    text-align: left;
+    color: #6A6E6F;
+}
+.btn:hover{
+    color: white;
+    background-color: #5CCDE5;
+}
+.opt{
+    font-size: 20px;
+    font-weight: bold;
+}
+.button-pair{
+    padding: 30px;
+    margin-top: 300px;
+}
+.btn-one,.btn-two{
+    text-align: center;
+    margin: 10px 20px;
+}
+.btn-one{
+    color: #5CCDE5;
+}
+.btn-two{
+    color: white;
+}
+.selected{
+    color: white;
+    background-color: #5CCDE5;
+}
+.choosen-correct{
+    color: white;
+    background-color: #4BB543;
+
+}
+.hide{
+    display: none;
+}
+.show{
+    display: static;
+}
+.timeup{
+
+}
+.quizFinished{
+    position: absolute;
+    top: 0;
+    left: 300px;
+    z-index: 1;
+}
+
+
+
+
+
+
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
